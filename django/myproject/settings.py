@@ -68,7 +68,7 @@ INSTALLED_APPS = [
     # Helps with debugging. Only enabled if client is listed in INTERNAL_IPS
     "debug_toolbar",
     # Uncomment the below line and replace 'myapp' with the name of your app
-    #'myapp',
+    "vkjota",
 ]
 
 MIDDLEWARE = [
