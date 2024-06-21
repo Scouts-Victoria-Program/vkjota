@@ -10,4 +10,9 @@ urlpatterns=[
         views.HomePageView.as_view(),
         name="home",
     ),
+    path(
+        "old/",
+        views.OldPageView.as_view(),
+        name="old",
+    ),
 ]

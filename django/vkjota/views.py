@@ -5,3 +5,6 @@ from django.views.generic.base import TemplateView
 
 class HomePageView(TemplateView):
     template_name = "vkjota/index.html"
+
+class OldPageView(TemplateView):
+    template_name = "vkjota/old-index.html"
